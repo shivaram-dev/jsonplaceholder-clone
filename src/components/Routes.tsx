@@ -47,7 +47,7 @@ const Routes = () => {
         </p>
         <div className='my-5 flex flex-col gap-y-2'>
             {routesArray.map((item) => (
-                <div key={item?.href} className='flex items-center w-72 justify-between'>
+                <div key={`${item?.href}${item?.method}`} className='flex items-center w-72 justify-between'>
                     <p>{item?.method}</p>
                     <Link href={item?.href} className='text-left w-40 underline'>
                     {item?.href}
