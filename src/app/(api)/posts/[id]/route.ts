@@ -1,7 +1,7 @@
 import { postsData } from "@/data"
 import { NextRequest, NextResponse } from "next/server"
 
-export const GET = (_request: NextRequest, { params }: { params: { id: string } }) => {
+export const GET = async (_request: NextRequest, { params }: { params: { id: string } }) => {
 
     const { id } = params;
     
