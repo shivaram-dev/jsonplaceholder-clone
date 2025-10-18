@@ -26,7 +26,7 @@ const navigation = [
 
 const Header = () => {
     return (
-        <div className="border-b-[1px] border-b-gray-300 sticky top-0 z-50 bg-white shadow-sm">
+        <div className="bg-white">
             <Container className="flex flex-col md:flex-row items-start md:items-center justify-between">
                 {/* logo */}
                 <Link href={"/"}>

@@ -12,7 +12,7 @@ const Testing = () => {
         <div className='bg-[#263e52] p-10 w-full rounded-lg'>
             <p className='text-yellow-100 tracking-wider mb-.5 flex flex-wrap'>
                 <span className='text-sky-300'>fetch</span>(&#x27;
-                {`https://jsonplaceholder.reactbd.com/api/posts/1`}&#x27;)
+                {`https://jsonplaceholder-clone-xi.vercel.app/posts/1`}&#x27;)
             </p>
             <p className='text-gray-100 tracking-wider ml-10 mb-.5'>
                 <span className='text-sky-300'>.then</span>
